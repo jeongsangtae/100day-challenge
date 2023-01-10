@@ -18,18 +18,22 @@
       <p>
         HTML (HyperText Markup Language) is used to define our page content,
         structure and meaning. <br />
-        You <span>don't</span> use it for styling purposes. Use CSS for that
-        instead!
+        You <span id="don">don't</span> use it for styling purposes. Use CSS for
+        that instead!
       </p>
 
       <ul>
-        <li>HTML uses "elements" to describe (annotate) content</li>
+        <li class="list">
+          HTML uses "elements" to describe (annotate) content
+        </li>
         <li>
           HTML elements typically have an opening tag, content and then a
           closing tag
         </li>
-        <li>You can also have void (empty) elements like images</li>
-        <li>You can also configure elements with attributes</li>
+        <li class="list">
+          You can also have void (empty) elements like images
+        </li>
+        <li class="list">You can also configure elements with attributes</li>
         <li>
           There's a long list of available elements but you'll gain experience
           over time, no worries.
@@ -37,7 +41,7 @@
       </ul>
       <p>
         Learn more about all available HTML elements on
-        <span> the MDN HTML element reference </span>.
+        <span class="mdn"> the MDN HTML element reference </span>.
       </p>
       <h2>CSS Summary</h2>
       <p>
@@ -46,7 +50,7 @@
       <ul>
         <li>Styles are assigned via property-value pairs</li>
         <li>You can assign styles via the "style" attribute</li>
-        <li>
+        <li class="list">
           To avoid code duplication. you typically use global styles (e.g. via
           the "style" element) instead
         </li>
@@ -54,23 +58,24 @@
           Alternatively, you can work with external stylesheet files which you
           "link" to
         </li>
-        <li>
+        <li class="list">
           When working with CSS, concepts like "inheritance", "specificity" and
           the "box model" should be understood.
         </li>
       </ul>
       <p>
         Learn more about all available CSS properties and values on
-        <span>the MDN CSS element reference </span>.
+        <span class="mdn">the MDN CSS element reference </span>.
       </p>
     </main>
     <footer>
       <a
         href="assets/html-css-basics-summary.pdf"
         download="html-css-basics-summary"
+        id="pdf"
         >Download PDF Summary</a
       >
-      <a href="https://academind.com/">(c) Academind GmbH</a>
+      <a href="https://academind.com/" id="aca">(c) Academind GmbH</a>
     </footer>
   </body>
 </html>
